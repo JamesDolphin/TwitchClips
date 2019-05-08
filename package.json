@@ -1,0 +1,32 @@
+{
+  "name": "twitchclips",
+  "version": "1.0.0",
+  "description": "Posts the top twitch clips of the day to twitter.com",
+  "main": "twitchClips.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesDolphin/twitchClips.git"
+  },
+  "author": "James Dolphin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesDolphin/twitchClips/issues"
+  },
+  "homepage": "https://github.com/JamesDolphin/twitchClips#readme",
+  "dependencies": {
+    "array-to-txt-file": "^1.0.2",
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "randomise-array": "^1.0.4",
+    "twit": "^2.2.11",
+    "twitch": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
